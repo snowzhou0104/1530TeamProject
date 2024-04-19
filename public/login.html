@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+
+<div class="container">
+    <div class="" style="margin-top: 150px">
+        <div>
+            <h3 class="text-center">Login</h3>
+        </div>
+        <div>
+            <form method="post" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required
+                            placeholder="please input email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" required
+                            placeholder="please input password">
+                </div>
+                <button onclick="login()" class="btn btn-primary">Login</button>
+                <a class="btn btn-info" href="register.html">register</a>
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="http://localhost:3000/main.js"></script>
+</html>

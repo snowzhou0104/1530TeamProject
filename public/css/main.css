@@ -1,0 +1,85 @@
+body {  
+    font-family: 'Arial', sans-serif;  
+    background-color: #f2f2f2;  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+.container {  
+    display: flex;  
+    justify-content: center;  
+    height: 100vh;  
+    background-color: #fff;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    padding: 20px;  
+    border-radius: 10px;  
+}  
+  
+h3 {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+  
+.form-group {  
+    margin-bottom: 20px;  
+}  
+  
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+  
+.form-control {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-sizing: border-box;  
+}  
+  
+.form-control:focus {  
+    border-color: #4CAF50;
+    outline: 0;
+}  
+  
+.btn {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    text-align: center;  
+    text-decoration: none;  
+    color: #fff;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+  
+.btn-primary {  
+    background-color: #4CAF50;
+    border: none;  
+    margin-right: 10px;  
+}  
+.btn-primary:hover {  
+    background-color: #45a049;
+}  
+.btn-info {  
+    background-color: #007BFF;
+    border: none;  
+}  
+.btn-info:hover {  
+    background-color: #0056b3;
+}  
+  
+.text-center {  
+    text-align: center;  
+}
+
+.horizontal-list {  
+    list-style-type: none;  
+    padding: 0;  
+
+}  
+
+.horizontal-list li {  
+    display: inline-block;  
+    margin-right: 10px;
+
+}  

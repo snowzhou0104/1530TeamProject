@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css"/>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col col-6" style="margin-top: 50px">
+            <div>
+                <h3 class="text-center">Register</h3>
+            </div>
+            <div>
+                <form method="post" onsubmit="return false;">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required
+                               placeholder="please input email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" required
+                               placeholder="please input password">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="please input name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" class="form-control form-control-lg">
+                            <option>male</option>
+                            <option>female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="text" class="form-control" id="age" placeholder="please input age">
+                    </div>
+
+                    <button id="registerBtn" onclick="register()" class="btn btn-primary">Register</button>
+                    <a  href="login.html">back to login</a>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="http://localhost:3000/main.js"></script>
+
+</html>
