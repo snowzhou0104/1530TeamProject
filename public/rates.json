@@ -1,0 +1,22 @@
+[
+    {"id":1,"area":"Washington","rate":9.29,"deduction":1262.00},
+    {"id":2,"area":"California","rate":7.25,"deduction":4537.00},
+    {"id":3,"area":"New York","rate":4.00,"deduction":8500.00},
+    {"id":4,"area":"Texas","rate":6.25,"deduction":0.00},
+    {"id":5,"area":"Florida","rate":6.00,"deduction":0.00},
+    {"id":6,"area":"Illinois","rate":6.25,"deduction":2325.00},
+    {"id":7,"area":"Pennsylvania","rate":6.00,"deduction":0.00},
+    {"id":8,"area":"Ohio","rate":5.75,"deduction":0.00},
+    {"id":9,"area":"Michigan","rate":6.00,"deduction":4400.00},
+    {"id":10,"area":"Georgia","rate":4.00,"deduction":4600.00},
+    {"id":11,"area":"North Carolina","rate":4.75,"deduction":10750.00},
+    {"id":12,"area":"New Jersey","rate":6.63,"deduction":1000.00},
+    {"id":13,"area":"Massachusetts","rate":6.25,"deduction":4400.00},
+    {"id":14,"area":"Virginia","rate":4.30,"deduction":4500.00},
+    {"id":15,"area":"South Carolina","rate":6.00,"deduction":4875.00},
+    {"id":16,"area":"Tennessee","rate":7.00,"deduction":2500.00},
+    {"id":17,"area":"Louisiana","rate":4.45,"deduction":4500.00},
+    {"id":18,"area":"Arizona","rate":5.60,"deduction":12550.00},
+    {"id":19,"area":"District of Columbia","rate":6.00,"deduction":5650.00},
+    {"id":20,"area":"Utah","rate":4.95,"deduction":4600.00}
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "email": "test@gmail.com",
+    "password": "1",
+    "name": "test",
+    "gender": "male",
+    "age": "112"
+  },
+  {
+    "email": "aa@outlook.com",
+    "password": "1",
+    "name": "efw",
+    "gender": "male",
+    "age": "23"
+  },
+  {
+    "email": "ziz104@pitt.edu",
+    "password": "password",
+    "name": "smow",
+    "gender": "female",
+    "age": "22"
+  },
+  {
+    "email": "z18235151216@outlook.com",
+    "password": "pa",
+    "name": "zijin",
+    "gender": "male",
+    "age": "20"
+  }
+]
