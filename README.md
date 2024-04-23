@@ -8,3 +8,8 @@
 3. Open http://localhost:3000 in a browser.
    
 # Test 
+1. Install npm (run npm install -g npm in terminal) or check if you have it already with npm -v
+   
+2. Install vitest (run npm install -D vitest in terminal) or check if you have it already with vitest -v
+
+3. run npm run in terminal 
