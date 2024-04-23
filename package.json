@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "supertest": "^6.3.4",
+    "vitest": "^1.5.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}

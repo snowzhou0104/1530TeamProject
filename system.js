@@ -19,6 +19,7 @@ function result_fail(data,msg){
 }
 
 
+
 app.get('/rates', (req, res) => {
     res.json(rates);
 });
@@ -126,3 +127,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+module.exports = app;
